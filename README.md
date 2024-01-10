@@ -27,3 +27,64 @@ python app.py
 ```
 
 The application will be available at http://localhost:5000.
+
+## API Endpoints
+
+### POST /compare
+
+Compares two text strings and returns their Cosine and Jaccard similarity scores.
+
+
+Request Format:
+```bash
+{
+    "text1": "string",
+    "text2": "string"
+}
+```
+
+Output Format:
+```bash
+{
+    "cosine_similarity": float,
+    "jaccard_similarity": float
+}
+```
+
+## Functions Description
+
+preprocess_text(text)
+Preprocesses the input text by converting it to lowercase and removing non-alphanumeric characters.
+
+### Parameters:
+text (str): The text to preprocess.
+
+### Returns:
+(str): The preprocessed text.
+tokenize(text)
+Tokenizes the preprocessed text into words and creates a dictionary with words as keys.
+
+### Parameters:
+text (str): The text to tokenize.
+
+### Returns:
+(dict): A dictionary of tokens.
+cosine_similarity(text1, text2)
+Calculates the Cosine similarity between two text strings.
+
+### Parameters:
+text1 (str): The first text string.
+text2 (str): The second text string.
+
+### Returns:
+(float): The Cosine similarity score.
+jaccard_similarity(text1, text2)
+Calculates the Jaccard similarity between two text strings.
+
+### Parameters:
+text1 (str): The first text string.
+text2 (str): The second text string.
+
+### Returns:
+(float): The Jaccard similarity score.
+
