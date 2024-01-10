@@ -14,8 +14,8 @@ This Flask application provides an API for comparing two text strings using Cosi
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone [repository-url]
-cd [repository-name]
+git clone [https://github.com/nikhilmalkari8/fetch_rewards.git]
+cd [fetch_rewards]
 pip install -r requirements.txt
 ```
 ## Running the Application
