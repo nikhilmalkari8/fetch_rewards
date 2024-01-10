@@ -53,7 +53,7 @@ Output Format:
 
 ## Running the Application from Docker
 
-[![Docker Build Status](https://img.shields.io/docker/build/nikhilmalkari/app.py)](https://hub.docker.com/r/nikhilmalkari/app.py)
+[![Docker Build Status](https://img.shields.io/docker/build/nikhilmalkari/fetch_rewards)](https://hub.docker.com/r/nikhilmalkari/fetch_rewards)
 
 ## Functions Description
 
