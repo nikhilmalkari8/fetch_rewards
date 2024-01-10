@@ -1,4 +1,4 @@
-#Flask Text Comparison API
+$Flask Text Comparison API
 
 Overview
 
