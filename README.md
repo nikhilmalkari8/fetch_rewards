@@ -3,7 +3,7 @@
 ## Overview
 This Flask application provides an API for comparing two text strings using Cosine and Jaccard similarity measures. It preprocesses text strings, tokenizes them, and calculates similarity scores, offering an easy-to-use RESTful API endpoint.
 
-## Running the Application from Docker
+## Running the Application using Docker
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/nikhilmalkari/fetch_rewards)](https://hub.docker.com/r/nikhilmalkari/fetch_rewards)
 
