@@ -59,32 +59,35 @@ Preprocesses the input text by converting it to lowercase and removing non-alpha
 #### Parameters:
 text (str): The text to preprocess.
 
-### Returns:
+#### Returns:
 (str): The preprocessed text.
-tokenize(text)
+
+### tokenize(text)
 Tokenizes the preprocessed text into words and creates a dictionary with words as keys.
 
-### Parameters:
+#### Parameters:
 text (str): The text to tokenize.
 
-### Returns:
+#### Returns:
 (dict): A dictionary of tokens.
-cosine_similarity(text1, text2)
+
+### cosine_similarity(text1, text2)
 Calculates the Cosine similarity between two text strings.
 
-### Parameters:
+#### Parameters:
 text1 (str): The first text string.
 text2 (str): The second text string.
 
-### Returns:
+#### Returns:
 (float): The Cosine similarity score.
-jaccard_similarity(text1, text2)
+
+### jaccard_similarity(text1, text2)
 Calculates the Jaccard similarity between two text strings.
 
-### Parameters:
+#### Parameters:
 text1 (str): The first text string.
 text2 (str): The second text string.
 
-### Returns:
+#### Returns:
 (float): The Jaccard similarity score.
 
