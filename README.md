@@ -53,10 +53,10 @@ Output Format:
 
 ## Functions Description
 
-preprocess_text(text)
+### preprocess_text(text)
 Preprocesses the input text by converting it to lowercase and removing non-alphanumeric characters.
 
-### Parameters:
+#### Parameters:
 text (str): The text to preprocess.
 
 ### Returns:
