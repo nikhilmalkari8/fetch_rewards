@@ -18,3 +18,12 @@ git clone [repository-url]
 cd [repository-name]
 pip install -r requirements.txt
 ```
+## Running the Application
+
+Start the application with the following command:
+
+```bash
+python app.py
+```
+
+The application will be available at http://localhost:5000.
